@@ -17,10 +17,7 @@
       {
         name: 'model',
         children: [
-          { 
-            modelChildren: {
-              
-            },
+          {
             name: 'GemmaModel',
             children: [
               {

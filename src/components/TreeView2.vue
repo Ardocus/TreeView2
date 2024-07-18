@@ -1,11 +1,11 @@
 <template>
     <div>
       <v-network-graph :nodes="nodes" :edges="edges"></v-network-graph>
-      <nodeTree/>
     </div>
   </template>
   
   <script setup>
+  import { ref } from 'vue';
   import VNetworkGraph from 'v-network-graph';
   import 'v-network-graph/lib/style.css';
   
